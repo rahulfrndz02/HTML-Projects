@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+/* CSS for the navigation bar */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    overflow: hidden; /*if not not used then background color will be white and text will not visible*/
+}
+
+.navbar a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;  /*remove the underline fron the text */
+    font-size: 18px;
+}
+
+  /* CSS for left and right alignment */
+.navbar-left{
+    float: left;   /*moving text to the left side*/
+}
+
+.navbar-right{
+    float: right;  /*moving text to the right side*/
+}
+
+.navbar a:hover{   /*change the color of link*/
+    color: blue;
+}
+
+/* CSS stye for book table */
+
+
+table td{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+  }
+
+input{
+    height: 15%;
+    width: 100%;
+  }
+  
+
+.button{
+    background: black;
+    color:white;
+    height: 2rem;
+    width: 100%;
+  }
+
+.content {
+    margin-top: 60px; /* Adjust this value to leave space below the fixed navigation bar */
+    padding: 20px;
+  }
+
+.filled {
+    background-color:rgb(211, 238, 242);
+  }
+
+  head{
+  font-family: 'Inter', sans-serif;
+  }

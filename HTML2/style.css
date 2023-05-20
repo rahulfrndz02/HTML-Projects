@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    ;
+  }
+  
+  li {
+    float: left;
+    word-spacing: 40px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: blue;
+  }
+
+
+  input{
+    height: 15%;
+    width: 100%;
+  }
+  
+
+  button{
+    background: black;
+    color:white;
+    height: 2rem;
+    width: 100%;
+  }
+
+
+  table td{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+  }

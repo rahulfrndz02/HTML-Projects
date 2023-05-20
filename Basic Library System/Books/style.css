@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .sub-table th {
+    background-color: #e6e6e6;
+  }
+  
+  .sub-table td {
+    border: none;
+    padding-left: 20px;
+  }

@@ -1,0 +1,46 @@
+ /* Universal selector(*{}) : selects all the elements in ur document */
+ *{
+    color:crimson;
+}
+
+/* Tag selector(tag{}) : selects all the elements with given tags */
+h1{
+    color: blue;
+}
+
+/* class selector(.class_name{}) : selects all the elements with the given class name
+   it is used to group element and provide them in same style */
+.para{
+    color:deeppink;
+}
+
+/*Id selector(#id_name{}) : selects the id with given id,
+id is unique value, no two elements have same id */
+#para-1{
+    color:cornflowerblue;
+}
+
+/* Grouping selector(tag_name , class_name, id_name{}): used to group diffirent selector */
+h1, h2{
+    color:sandybrown;
+}
+
+.para , #para-1{
+    color: green;
+}
+
+p.para{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+

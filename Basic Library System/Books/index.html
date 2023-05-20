@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books Table</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <a href="#">Library System</a>
+        </div>
+        <div class="navbar-right">
+            <a href="./Books/index.html">Books</a>
+            <a href="./Register/index.html">Register</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Logout</a>
+        </div>
+    </div>
+
+    <div class="book-heading">
+        <h1>Books</h1>
+    </div>
+    <table>
+        <thead>
+          <tr>
+            <th>Book Id</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Book 1</td>
+            <td>Author 1</td>
+            <td>Genre 1</td>
+            <td>Available</td>
+          </tr>
+          <tr>
+            <td colspan="5">
+              <table class="sub-table">
+                <thead>
+                  <tr>
+                    <th>Book Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>2</td>
+                    <td>Book 2</td>
+                    <td>Author 2</td>
+                    <td>Genre 2</td>
+                    <td>Unavailable</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Book 3</td>
+                    <td>Author 3</td>
+                    <td>Genre 3</td>
+                    <td>Available</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+
+</html>

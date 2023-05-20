@@ -1,0 +1,57 @@
+/* Pseudo class selector */
+/* :link - selcts te unvisited link  */
+a:link{
+    color: fuchsia;
+}
+
+.anchor:link{
+    color: fuchsia;
+}
+
+a:visited{
+    color: teal;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:hover{
+    color: coral;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+    border:1px solid lightblue;
+    border-radius: 5px;
+    background-color: cyan;
+}
+
+h1:first-child{
+    color: blue;
+}
+
+/* for all elements */
+li:nth-child(n){
+    color: greenyellow;
+}
+
+ /* for even elements */
+li:nth-child(2n){
+    color: greenyellow;
+}
+
+/* for 3rd elements */
+li:nth-child(3n){
+    color: greenyellow;
+}
+
+/* for add elements */
+li:nth-child(2n+1){
+    color: greenyellow;
+}
+

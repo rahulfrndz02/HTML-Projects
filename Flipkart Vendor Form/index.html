@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart vendor Form</title>
+</head>
+<body>
+    <form action="#">
+    <h1>Flipkart Vendor Form</h1>
+    <div>
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name"  placeholder="fname">
+        <input type="text" id="name" name="name"  placeholder="surname">
+    </div><br />
+
+    <div>
+        <label for="dob">Date of birth :</label>
+        <input type="calendar" id="dob" name="dob" placeholder="01/01/2023">
+    </div><br>
+
+    <div>
+        <label for="currlocation">Current Location :</label>
+        <input type="text" id="currlocation" name="currlocation" placeholder="Delhi">
+    </div><br>
+
+    <div>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div><br>
+
+    <div>
+        <label for="aadhar">Upload your Aadhar Card :</label>
+        <input type="file" id="aadhar" name="aadhar">
+    </div><br>
+
+    <div>
+        <label for="pan">Pan Number :</label>
+        <input type="tel" id="pan" name="pan" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" placeholder="ABC1234">
+    </div><br>
+
+    <div>
+        <label for="items">Item to sell :</label>
+        <select name="items" id="items">
+            <option value="Items to sell">Item to sell</option>
+            <option value="shoes">Shoes</option>
+            <option value="clothes">Clothes</option>
+            <option vlaue="wathes">Watches</option>
+        </select>
+    </div><br>
+
+    <div>
+        <label for="question">Are you in India?</label>
+        <input type="radio" name="question">Yes
+        <input type="radio" name="question">No
+    </div><br>
+
+    <div>
+        <label for="location">Location open for delievery :</label>
+        <input type="checkbox" id="location" name="location">Delhi
+        <input type="checkbox" id="location" name="location">Bangalore
+        <input type="checkbox" id="location" name="location">Mumbai
+    </div><br>
+
+    <div>
+        <input type="submit">
+        <input type="reset">
+        
+    </div>
+
+
+</form>
+</body>
+</html>
