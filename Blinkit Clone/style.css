@@ -1,0 +1,60 @@
+@import url('./variable.css');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    height: 86px;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    
+}
+
+.logo svg{
+    margin-left: -63px;
+}
+
+.location{
+    margin-left: -137px;
+}
+
+.location .title{
+    font-weight: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
